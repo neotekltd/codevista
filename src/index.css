@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 45 100% 97%; 
+		--foreground: 220 15% 20%; 
+
+		--card: 0 0% 100%; 
+		--card-foreground: 220 15% 20%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 220 15% 20%;
+
+		--primary: 45 90% 55%; 
+		--primary-foreground: 220 15% 20%; 
+
+		--secondary: 220 10% 45%; 
+		--secondary-foreground: 0 0% 98%; 
+
+		--muted: 220 10% 90%; 
+		--muted-foreground: 220 10% 55%;
+
+		--accent: 145 63% 49%; 
+		--accent-foreground: 0 0% 100%; 
+
+		--destructive: 0 72% 51%;
+		--destructive-foreground: 0 0% 98%;
+
+		--border: 220 10% 85%; 
+		--input: 0 0% 100%; 
+		--ring: 45 90% 55%; 
+
+		--radius: 0.75rem; 
+	}
+
+  .dark {
+		--background: 220 15% 10%; 
+		--foreground: 0 0% 95%; 
+
+		--card: 220 15% 13%; 
+		--card-foreground: 0 0% 95%;
+
+		--popover: 220 15% 13%;
+		--popover-foreground: 0 0% 95%;
+
+		--primary: 45 90% 55%; 
+		--primary-foreground: 220 15% 10%; 
+    
+		--secondary: 220 10% 70%; 
+		--secondary-foreground: 0 0% 98%;
+
+		--muted: 220 15% 20%;
+		--muted-foreground: 220 10% 60%;
+
+		--accent: 145 63% 49%; 
+		--accent-foreground: 0 0% 100%;
+
+		--destructive: 0 72% 51%;
+		--destructive-foreground: 0 0% 98%;
+
+		--border: 220 15% 25%; 
+		--input: 220 15% 18%; 
+		--ring: 45 90% 55%;
+  }
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	html {
+		@apply scroll-smooth;
+	}
+	body {
+		@apply bg-brand-background-light text-brand-dark; 
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Inter', sans-serif; 
+    @apply font-bold text-brand-dark; 
+  }
+  p, span, div, li {
+     @apply text-brand-secondary; 
+  }
+  a {
+    @apply text-brand-yellow-accent hover:text-brand-yellow-accent-dark transition-colors duration-200;
+  }
+  strong {
+    @apply font-semibold text-brand-dark;
+  }
+  
+  .dark body {
+    @apply bg-brand-dark text-brand-light;
+  }
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    @apply text-brand-light;
+  }
+  .dark p, .dark span, .dark div, .dark li {
+    @apply text-brand-secondary; 
+  }
+   .dark a {
+    @apply text-brand-yellow-accent hover:text-brand-yellow-accent-dark;
+  }
+  .dark strong {
+    @apply text-brand-light;
+  }
+}
+
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.6); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: var(--radius); 
+  border: 1px solid rgba(229, 231, 235, 0.5); 
+}
+
+.dark .glassmorphism-card {
+  background: rgba(38, 38, 48, 0.6); 
+  border: 1px solid var(--brand-dark-border); 
+}
+
+.section-padding {
+  @apply py-16 md:py-24 lg:py-28; 
+}
+
+.container-custom {
+  @apply container mx-auto px-5 sm:px-6 lg:px-8; 
+}
+
+.gradient-text-yellow {
+   @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-yellow-accent to-yellow-400;
+}
+
+.gradient-text-green {
+   @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-accent to-green-400;
+}
+
+.btn-primary-yellow {
+  @apply bg-brand-yellow-accent hover:bg-brand-yellow-accent-dark text-brand-dark font-semibold rounded-lg shadow-subtle transition-all duration-300 transform hover:scale-[1.03];
+}
+
+.btn-outline-dark {
+  @apply border-2 border-brand-dark text-brand-dark hover:bg-brand-dark hover:text-brand-light font-semibold rounded-lg shadow-subtle transition-all duration-300 transform hover:scale-[1.03];
+}
+
+.btn-outline-light {
+   @apply border-2 border-brand-light text-brand-light hover:bg-brand-light hover:text-brand-dark font-semibold rounded-lg shadow-subtle transition-all duration-300 transform hover:scale-[1.03];
+}
+
+.card-base {
+  @apply rounded-2xl shadow-medium transition-all duration-300;
+}
+
+.light-theme-card {
+  @apply bg-white text-brand-dark card-base border border-brand-border;
+}
+.light-theme-card h3, .light-theme-card h4 {
+  @apply text-brand-dark;
+}
+.light-theme-card p {
+  @apply text-brand-secondary;
+}
+
+.dark-theme-card {
+  @apply bg-brand-dark/80 backdrop-blur-md text-brand-light card-base border border-brand-dark-border;
+}
+.dark-theme-card h3, .dark-theme-card h4 {
+  @apply text-brand-light;
+}
+.dark-theme-card p {
+  @apply text-brand-secondary; 
+}
+.dark-theme-card a {
+  @apply text-brand-yellow-accent hover:text-brand-yellow-accent-dark;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}

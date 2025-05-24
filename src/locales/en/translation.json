@@ -1,0 +1,720 @@
+
+{
+  "header": {
+    "home": "Home",
+    "services": "E-commerce Services",
+    "designServices": "Design Services",
+    "about": "About Us",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "bookCall": "Book a Call",
+    "capabilities": "Capabilities",
+    "ourWorks": "Our Works",
+    "portfolio": "Portfolio",
+    "caseStudies": "Case Studies",
+    "blog": "Blog",
+    "aboutUsSimple": "About"
+  },
+  "footer": {
+    "tagline": "Your partner for innovative digital solutions. We build experiences that drive growth and captivate audiences.",
+    "sections": [
+      {
+        "title": "Company",
+        "links": [
+          { "name": "About Us", "href": "/a-propos" },
+          { "name": "E-commerce Services", "href": "/services" },
+          { "name": "Design Services", "href": "/design-services"},
+          { "name": "Pricing", "href": "/tarifs" },
+          { "name": "Testimonials", "href": "/temoignages" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "name": "Blog", "href": "/blog" },
+          { "name": "FAQ", "href": "/faq" },
+          { "name": "Support", "href": "/contact" }
+        ]
+      }
+    ],
+    "settings": "Settings",
+    "copyrightNotice": "All Rights Reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contactInfo": {
+      "address": "Neotek LTD, Innovation Hub, Tunis, Tunisia",
+      "phone": "+216 53 858 099",
+      "email": "contact@neotek.tn"
+    }
+  },
+  "homePage": {
+    "hero": {
+      "tagline": "Your Full Service Design Partner",
+      "title": "Boost Your <gradient>E-commerce</gradient> Business",
+      "titleDuck": "Design Without Limits",
+      "titleBlin": "Creative Studio <br/> For <gradient>Bold Brands.</gradient>",
+      "subtitle": "We create high-performance online stores and tailor-made digital solutions to propel your brand to new heights.",
+      "subtitleDuck": "Unlimited design for a flat monthly fee. We will take care of all your creative needs. No lengthy hiring procedures. No inefficient freelancers. No contracts.",
+      "subtitleBlin": "We craft unique digital experiences. From stunning graphics to captivating motion and robust web solutions.",
+      "bookCall": "Book a Free Call",
+      "discoverServices": "Discover Our Services"
+    },
+    "blinHero": {
+      "subtag": "Have a web project?",
+      "title": "Need a Web Solution?",
+      "showcaseSite": {
+        "title": "Showcase Site",
+        "price": "From 600 TND"
+      },
+      "ecommerceSite": {
+        "title": "E-commerce Site",
+        "price": "From 1200 TND"
+      },
+      "imageAlt": "Illustration of diverse web solutions and creative project ideas",
+      "freeEvaluation": {
+        "title": "Free Project Evaluation",
+        "subtitle": "Leave your phone number and we'll call you back",
+        "phoneLabel": "Your phone number",
+        "phonePlaceholder": "Phone Number",
+        "nameLabel": "Your name",
+        "namePlaceholder": "Name",
+        "cta": "CALL ME BACK"
+      }
+    },
+    "blinShowcaseSite": {
+      "tag": "Showcase Site",
+      "title": "Six additional advantages of a showcase site:",
+      "features": [
+        "Company Presentation", "New Customers", "Affordable Cost", 
+        "Performance Measurement", "Online Visibility", "Personalization"
+      ],
+      "features.0": "Stunning company presentation to impress visitors.",
+      "features.1": "Attract new customers with a professional online image.",
+      "features.2": "Affordable cost for high-quality design and development.",
+      "features.3": "Trackable performance metrics for continuous improvement.",
+      "features.4": "Enhanced online visibility to reach a wider audience.",
+      "features.5": "Fully personalized to reflect your unique brand identity.",
+      "imageAlt": "Elegant showcase website displayed on a modern laptop screen",
+      "cta": "Learn More"
+    },
+    "blinEcommerceSite": {
+      "tag": "E-commerce Site",
+      "title": "Here's what we can do for your online store:",
+      "features": [
+        "Accessibility", "Personalization", "Savings", 
+        "Analysis", "Expanded Reach", "Flexibility"
+      ],
+      "features.0": "Accessible design for all users, ensuring inclusivity.",
+      "features.1": "Deep personalization options for a unique shopping experience.",
+      "features.2": "Significant savings through efficient platform management.",
+      "features.3": "Advanced analytics to understand customer behavior.",
+      "features.4": "Expanded market reach with a global online presence.",
+      "features.5": "Flexible and scalable solutions to grow with your business.",
+      "imageAlt": "User interacting with a feature-rich e-commerce application on a smartphone",
+      "cta": "Learn More"
+    },
+    "blinWhyTrustUs": {
+      "tag": "Our Strengths",
+      "title": "Why Choose Neotek for Your Digital Needs?",
+      "subtitle": "Clients trust Neotek for our unwavering commitment to professionalism, cutting-edge expertise, bespoke service personalization, crystal-clear communication, and our dedication to delivering tangible, measurable results that propel businesses forward.",
+      "points": [
+        { "title": "Proven Experience", "description": "Years of dedicated experience in the digital landscape, enabling us to deliver high-quality, impactful services." },
+        { "title": "Expert Team", "description": "Our team is a powerhouse of skilled professionals, seasoned in web design, robust development, and strategic digital marketing." },
+        { "title": "Tailored Personalization", "description": "We meticulously tailor our services to align perfectly with the unique needs and strategic objectives of each valued client." },
+        { "title": "Transparent Communication", "description": "We champion clear, concise, and effective communication, ensuring our clients are informed and engaged every step of the way." }
+      ],
+      "cta": "Discover More About Us"
+    },
+    "blinHowWeWork": {
+      "tag": "Our Process:",
+      "title": "Our Approach to Delivering Excellence:",
+      "subtitle": "We forge close partnerships with our clients throughout the entire project lifecycle. This collaborative approach ensures that their needs are not just met, but exceeded, and that every project is delivered on schedule and within the agreed budget.",
+      "steps": [
+        { "title": "Discovery & Analysis", "description": "We begin by deeply understanding your business, objectives, target audience, and competitive landscape to lay a solid foundation.", "altText": "Team in a collaborative discovery session with whiteboards and notes" },
+        { "title": "Strategic Planning", "description": "We craft a bespoke strategy, meticulously outlining project scope, clear timelines, transparent budget, and all necessary resources for success.", "altText": "Detailed project plan on a large screen with charts and timelines" },
+        { "title": "Creative Design & Development", "description": "Our expert team translates strategy into reality, designing and developing a high-caliber website or e-commerce platform tailored to your business.", "altText": "UI/UX designers collaborating on an innovative website layout" },
+        { "title": "Launch & Ongoing Support", "description": "Post-launch, we provide continuous maintenance and proactive support, ensuring your digital platform remains current, secure, and performs optimally.", "altText": "Stylized rocket launching from a laptop, symbolizing a successful project go-live" }
+      ]
+    },
+     "blinFinalCTA": {
+      "title": "Have More Questions or Ready to Start?",
+      "subtitle": "Leave your phone number, and one of our specialists will call you back to discuss your project."
+    },
+    "graphicDesignSection": {
+      "tag": "Graphic Design",
+      "title": "Visuals That <gradient>Speak Volumes.</gradient>",
+      "subtitle": "From logos to complete brand identities, we create designs that tell your story and captivate your audience.",
+      "services": [
+        { "title": "Logo Design", "description": "Crafting memorable brand marks.", "imageAlt": "Modern geometric logo design", "imageText": "Abstract geometric logo concepts" },
+        { "title": "Brand Identity", "description": "Full visual systems for your brand.", "imageAlt": "Brand identity moodboard", "imageText": "Corporate branding materials display" },
+        { "title": "Marketing Materials", "description": "Brochures, flyers, social media assets.", "imageAlt": "Collection of marketing brochures", "imageText": "Digital marketing assets on various screens" },
+        { "title": "UI Kits", "description": "User interface elements for web/apps.", "imageAlt": "UI kit elements on a screen", "imageText": "Mobile app UI components showcase" }
+      ]
+    },
+    "motionDesignSection": {
+      "tag": "Motion Design",
+      "title": "Bringing <gradient>Ideas to Life.</gradient>",
+      "description": "Engage your audience with stunning animations, explainer videos, and motion graphics that leave a lasting impression.",
+      "seeMore": "See Motion Examples"
+    },
+    "webDevelopmentSection": {
+      "tag": "Web Development",
+      "title": "Digital Solutions <gradient>That Perform.</gradient>",
+      "subtitle": "We build fast, scalable, and secure web applications, from e-commerce platforms to custom corporate websites.",
+      "techStack": [
+        { "name": "React" }, { "name": "Node.js" }, { "name": "Python" }, { "name": "Shopify" }, { "name": "WordPress" }
+      ],
+      "exploreServices": "Explore Web Services"
+    },
+    "partnersSection": {
+      "title": "Trusted by Leading Brands",
+      "titleAlt": "Fix Your Graphic Design Bottleneck",
+      "subtitleAlt": "Your brand designs are too important to be left in the hands of unreliable freelancers or expensive creative agencies. Why not hire an experienced, full-time designer who knows you by name and your brand by heart?",
+      "partners": [
+        { "name": "Shopify", "logoUrl": "placeholder_shopify.svg" },
+        { "name": "WooCommerce", "logoUrl": "placeholder_woocommerce.svg" },
+        { "name": "BigCommerce", "logoUrl": "placeholder_bigcommerce.svg" },
+        { "name": "Magento", "logoUrl": "placeholder_magento.svg" },
+        { "name": "PrestaShop", "logoUrl": "placeholder_prestashop.svg" }
+      ],
+      "ourPlans": "Our Plans"
+    },
+    "servicesHighlightSection": {
+      "title": "Our Core <gradient>Services</gradient>",
+      "titleAlt": "What We <gradient>Design</gradient>",
+      "subtitle": "From concept to launch, we offer a complete range of services to build and grow your online business.",
+      "services": [
+        {
+          "title": "E-commerce Development",
+          "description": "Custom online stores built on robust platforms, optimized for sales and user experience.",
+          "learnMore": "Learn More"
+        },
+        {
+          "title": "Performance Optimization",
+          "description": "Improve your site's speed, SEO, and conversion rates with our expert optimization services.",
+          "learnMore": "Learn More"
+        },
+        {
+          "title": "Digital Marketing",
+          "description": "Strategic marketing campaigns to increase your visibility and attract qualified customers.",
+          "learnMore": "Learn More"
+        }
+      ],
+      "servicesDuck": [
+        { "title": "Graphic Design", "description": "Logos, illustrations, social media graphics, and more." },
+        { "title": "Motion Graphics", "description": "Engaging animations for ads, presentations, and social media." },
+        { "title": "Brand Identity Design", "description": "Complete branding packages to define your visual identity." },
+        { "title": "UI/UX Design", "description": "User-friendly interfaces for web and mobile applications." }
+      ],
+      "allServices": "All Design Services"
+    },
+    "howItWorksSection": {
+      "title": "Here's how to get started:",
+      "steps": [
+        { "title": "Book a Call", "description": "Schedule a free consultation to discuss your project and goals." },
+        { "title": "Choose Your Plan", "description": "Select a design plan that fits your needs and budget." },
+        { "title": "Submit Your Requests", "description": "Easily submit your design requests through our platform." },
+        { "title": "Receive Your Designs", "description": "Get your designs back quickly, typically within a few business days." }
+      ]
+    },
+    "whyChooseUsSection": {
+      "title": "Why <gradient>Choose Us?</gradient>",
+      "description": "We are committed to your success. Our team of experts combines creativity, technology, and strategy to deliver exceptional results.",
+      "points": [
+        { "title": "Proven Expertise", "description": "Years of experience and a portfolio of successful projects." },
+        { "title": "Client-Centric Approach", "description": "We listen to your needs and tailor solutions to your specific goals." },
+        { "title": "Innovation & Quality", "description": "We use the latest technologies and best practices to ensure high-quality deliverables." }
+      ],
+      "learnMoreAboutUs": "Learn More About Us"
+    },
+    "testimonialsSection": {
+      "title": "What Our <gradient>Clients Say</gradient>",
+      "titleAlt": "Loved by <gradient>Founders</gradient> Worldwide",
+      "subtitle": "Discover the experiences of businesses that have trusted us with their e-commerce projects.",
+      "testimonials": [
+        { "name": "Alice Wonderland", "role": "CEO, Wonderland Creations", "quote": "Neotek LTD transformed our online presence! Their team is professional, creative, and incredibly responsive. Our sales have increased by 40% since the launch of our new site.", "rating": 5, "category": "E-commerce Redesign" },
+        { "name": "Bob The Builder", "role": "Founder, BuildIt Co.", "quote": "Working with Neotek was a game-changer. They understood our vision perfectly and delivered a high-performing store that exceeded our expectations. Highly recommended!", "rating": 5, "category": "New Store Development" },
+        { "name": "Charlie Bucket", "role": "Marketing Director, Sweet Factory", "quote": "Their digital marketing strategies have significantly boosted our online visibility and customer engagement. A truly valuable partner for our growth.", "rating": 4, "category": "Digital Marketing" }
+      ],
+      "readMoreTestimonials": "Read More Testimonials"
+    },
+    "contactSection": {
+      "title": "Ready to <gradient>Start Your Project?</gradient>",
+      "titleAlt": "Let's <gradient>Talk About Your Project</gradient>",
+      "titleDuck": "Ready to start a project?",
+      "description": "Contact us today for a free consultation and let's discuss how we can help you achieve your e-commerce goals.",
+      "descriptionAlt": "We're here to answer your questions and help you get started. Fill out the form below or reach out to us directly.",
+      "descriptionDuck": "Let's discuss your ideas and how we can help you achieve your goals. Book a free consultation call with our experts.",
+      "form": {
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "e.g., John Doe",
+        "emailAddress": "Email Address",
+        "emailAddressPlaceholder": "e.g., john.doe@example.com",
+        "companyOptional": "Company (Optional)",
+        "companyPlaceholder": "e.g., Acme Corp",
+        "desiredService": "Desired Service",
+        "selectService": "Select a service...",
+        "essentialECommerce": "Essential E-commerce Package",
+        "growthECommerce": "Growth E-commerce Package",
+        "performanceECommerce": "Performance E-commerce Package",
+        "customQuote": "Custom Quote / Specific Development",
+        "otherConsultation": "Other / Consultation",
+        "yourMessage": "Your Message",
+        "messagePlaceholder": "Briefly describe your project or question...",
+        "sendRequest": "Send Request",
+        "formspreeNote": "Note: This form is for demonstration. Replace with your Formspree endpoint for live submissions."
+      },
+      "status": {
+        "sending": "Sending...",
+        "pleaseWait": "Please wait while your message is being sent.",
+        "successTitle": "Message Sent!",
+        "successDescription": "Thank you for contacting us. We'll get back to you shortly.",
+        "errorTitle": "Submission Error",
+        "errorDescription": "An error occurred. Please try again later."
+      }
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Our E-commerce <gradient>Services</gradient>",
+      "subtitle": "Comprehensive solutions to create, optimize, and grow your online business. We tailor our expertise to your unique needs. From custom store development to performance optimization and strategic marketing, we cover all aspects of your digital commerce journey.",
+      "titleDuck": "Our Design Services",
+      "subtitleDuck": "Explore our comprehensive range of design services tailored to elevate your brand and captivate your audience. We offer everything from graphic and motion design to full brand identity and UI/UX systems."
+    },
+    "detailedServices": [
+      {
+        "title": "Complete Online Store Development",
+        "description": "From A to Z, we build your e-commerce platform, ready to sell and scale. This includes custom design, robust development, and full setup for a seamless launch.",
+        "features": [
+          "Custom-tailored design reflecting your unique brand identity",
+          "Development on leading platforms like Shopify, WooCommerce, or fully custom solutions",
+          "Efficient product catalog setup and intuitive management tools",
+          "Secure and diverse payment gateway integration (Stripe, PayPal, etc.)",
+          "Mobile-first, responsive design for optimal user experience on all devices",
+          "Initial SEO setup and performance optimization for better visibility"
+        ],
+        "learnMore": "Discuss Your Store Project"
+      },
+      {
+        "title": "Store Redesign & Modernization",
+        "description": "Give your existing store a fresh, modern look and significantly improved performance. We focus on enhancing user experience and conversion rates.",
+        "features": [
+          "Contemporary visual redesign aligned with current trends and your brand evolution",
+          "In-depth user experience (UX) audit and conversion rate optimization (CRO)",
+          "Seamless platform migration or upgrade to newer, more efficient technologies",
+          "Comprehensive performance and loading speed improvements",
+          "Integration of new, innovative functionalities and features",
+          "Mobile responsiveness check and enhancement"
+        ],
+        "learnMore": "Request a Store Redesign"
+      },
+      {
+        "title": "Custom Feature Development",
+        "description": "Bespoke features and third-party system integrations tailored to meet your specific business requirements and operational needs.",
+        "features": [
+          "Development of custom modules, plugins, or extensions",
+          "Sophisticated API integration with external systems (ERP, CRM, marketing automation)",
+          "Advanced product customization tools for unique offerings",
+          "Implementation of subscription models or membership systems",
+          "Development of marketplace functionalities for multi-vendor platforms",
+          "Custom reporting and analytics dashboards"
+        ],
+        "learnMore": "Get a Custom Feature Quote"
+      },
+      {
+        "title": "SEO & Digital Marketing Optimization",
+        "description": "Boost your online visibility, attract qualified organic traffic, and improve your search engine rankings with our comprehensive SEO services.",
+        "features": [
+          "Thorough technical SEO audit and on-site optimization",
+          "Strategic on-page and off-page SEO strategies for sustainable growth",
+          "High-quality content marketing and effective blogging strategies",
+          "Engaging social media marketing campaigns to build community",
+          "Targeted paid advertising campaigns (Google Ads, Facebook Ads, LinkedIn Ads)",
+          "Local SEO optimization for businesses targeting specific geographic areas"
+        ],
+        "learnMore": "Boost Your SEO & Marketing"
+      },
+      {
+        "title": "Ongoing Maintenance & Security",
+        "description": "Ensure your e-commerce store runs smoothly, securely, and efficiently with our proactive ongoing support and maintenance plans.",
+        "features": [
+          "Regular software updates, security patches, and platform maintenance",
+          "Continuous performance monitoring and optimization",
+          "Reliable data backup and disaster recovery solutions",
+          "Priority technical support and rapid troubleshooting",
+          "Proactive security audits and vulnerability management",
+          "Uptime monitoring and alerts"
+        ],
+        "learnMore": "Secure Your E-commerce Site"
+      },
+      {
+        "title": "E-commerce Consulting & Strategy",
+        "description": "Leverage our expert advice to guide your e-commerce decisions, refine your strategy, and maximize your return on investment.",
+        "features": [
+          "Comprehensive market analysis and competitive intelligence reporting",
+          "Development of a data-driven e-commerce growth strategy",
+          "Conversion rate optimization (CRO) consulting and A/B testing",
+          "Customer journey mapping, analysis, and improvement strategies",
+          "Strategic technology stack recommendations and platform selection advice",
+          "International e-commerce expansion strategy"
+        ],
+        "learnMore": "Plan Your E-commerce Strategy"
+      }
+    ],
+     "detailedServicesDuck": [
+      {
+        "title": "Graphic Design",
+        "description": "Logos, illustrations, social media graphics, and more. We create visuals that tell your brand's story and engage your audience.",
+        "features": ["Memorable Logo Design & Full Branding Packages", "Custom Illustrations & Iconography", "Engaging Social Media Graphics & Templates", "Professional Print Materials (Brochures, Business Cards, Flyers)"],
+        "learnMore": "Start Your Design Project",
+        "bgColor": "dark",
+        "imageDescription": "Abstract colorful graphic design elements flowing on a dark background",
+        "altText": "Graphic Design Service Showcase"
+      },
+      {
+        "title": "Motion Graphics",
+        "description": "Engaging animations for advertisements, presentations, social media, and product showcases. Bring your ideas to life with dynamic visuals.",
+        "features": ["Compelling Explainer Videos & Product Demos", "Dynamic Logo Animations & Intros/Outros", "Eye-catching Social Media Video Ads & Stories", "Animated Presentations & Infographics"],
+        "learnMore": "Get Your Project Animated",
+        "bgColor": "yellow",
+        "imageDescription": "Laptop screen displaying complex motion graphics software interface with an abstract animation",
+        "altText": "Motion Graphics Service Showcase"
+      },
+      {
+        "title": "Brand Identity Design",
+        "description": "Complete branding packages to define and establish your unique visual identity. We help you build a brand that resonates and endures.",
+        "features": ["In-depth Brand Strategy & Market Positioning", "Comprehensive Visual Identity Systems (Logo, Typography, Color Palette)", "Detailed Brand Guidelines & Style Guides", "Creative Packaging Design & Unboxing Experiences"],
+        "learnMore": "Build Your Powerful Brand",
+        "bgColor": "dark",
+        "imageDescription": "Moodboard showcasing various branding elements like logos, color palettes, and typography",
+        "altText": "Brand Identity Design Service Showcase"
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "User-friendly and aesthetically pleasing interfaces for web and mobile applications. We focus on creating intuitive and engaging digital experiences.",
+        "features": ["Modern & Responsive Website Design", "Intuitive Mobile App Design (iOS & Android)", "Thorough User Research & Persona Development", "Interactive Wireframing & Prototyping"],
+        "learnMore": "Enhance Your User Experience",
+        "bgColor": "yellow",
+        "imageDescription": "Tablet screen showing a UI/UX design process with wireframes and user flows",
+        "altText": "UI/UX Design Service Showcase"
+      },
+      {
+        "title": "Marketing Design",
+        "description": "Visually compelling and effective assets for all your marketing campaigns. We design materials that convert and drive results.",
+        "features": ["High-Converting Ad Creatives (Digital & Print)", "Customizable Email Marketing Templates", "Optimized Landing Page Design & Layouts", "Professional Presentation Design (Keynote, PowerPoint, Google Slides)"],
+        "learnMore": "Boost Your Marketing Efforts",
+        "bgColor": "dark",
+        "imageDescription": "Collage of various marketing design examples including social media ads, email templates, and brochures",
+        "altText": "Marketing Design Service Showcase"
+      }
+    ],
+    "cta": {
+      "title": "Ready to <gradient>Elevate</gradient> Your E-commerce?",
+      "subtitle": "Let's discuss your project and how our expertise can help you achieve your business objectives. Contact us for a personalized consultation and a free quote.",
+      "button": "Get Your Free Quote Today",
+      "titleDuck": "Have a design project in mind?",
+      "subtitleDuck": "We're excited to learn about your vision and creative needs. Contact us today for a free consultation and let's create something amazing together."
+    }
+  },
+  "softwareDesignPage": {
+    "hero": {
+      "title": "Scale your success with outstanding design",
+      "subtitle": "Leading companies trust Neotek LTD to deliver high-quality design at scale. Book a call and start working with a dedicated team of professional designers who understand your brand and vision."
+    },
+    "designServicesTitle": "Our Comprehensive Design Services",
+    "designServices": [
+      { "title": "Graphic Design", "imageDescription": "Vibrant photonic branding elements displayed on a sleek, modern screen", "altText": "Graphic Design Showcase with photonic elements" },
+      { "title": "Motion Graphics", "imageDescription": "Motion graphics software interface on a laptop screen, surrounded by film reel and dynamic visual effects", "altText": "Motion Graphics Showcase with software and effects" },
+      { "title": "Brand Identity Design", "imageDescription": "Collection of diverse branding elements including various logo styles, color palettes, and typography examples", "altText": "Brand Identity Showcase with logos and palettes" },
+      { "title": "UI/UX Design", "imageDescription": "Detailed UI/UX design mockups and wireframes displayed on a tablet device, showing user flows", "altText": "UI/UX Design Showcase with mockups and wireframes" }
+    ],
+    "trustedBy": {
+      "title": "\"Clients we are proud of\" – Building Trust with Major International Companies",
+      "partners": [
+        { "name": "BQ" }, { "name": "Samsung" }, { "name": "bkfx." }, { "name": "Ventoo" }, { "name": "Skycop" }, { "name": "HSBC" }, { "name": "P&G" }, { "name": "Logitech" }
+      ]
+    },
+    "whatMakesUsDifferent": {
+      "comparisonTag": "See how we compare",
+      "title": "What Makes Neotek LTD Different?",
+      "subtitle": "We take full ownership of your creative needs. Experience a seamless design process without lengthy hiring procedures or binding contracts. Just your work, delivered efficiently and brilliantly!",
+      "items": [
+        { "name": "Unlimited creative requests" }, { "name": "Real-time, seamless collaboration" },
+        { "name": "Unlimited design revisions" }, { "name": "Efficient Trello Project Management" },
+        { "name": "Unlimited brand profiles support" }, { "name": "Risk-free 7-day money-back guarantee" },
+        { "name": "Native source files provided" }, { "name": "Flexible - cancel anytime policy" },
+        { "name": "Dedicated Art Director oversight" }, { "name": "Experienced Middle+/Senior Designers" },
+        { "name": "Proactive Project Manager" }
+      ]
+    },
+    "howItWorks": {
+      "items": [
+        { "title": "Transparent fixed monthly rate", "description": "Absolutely no hidden costs or surprise fees. Pay the same predictable price every month for unlimited design." },
+        { "title": "Truly unlimited requests", "description": "Don't throttle your creativity. Submit as many design requests as you need, whenever you need them." },
+        { "title": "Boundless revisions until perfection", "description": "Request changes without any limitations. We iterate tirelessly until you declare the design absolutely perfect." },
+        { "title": "Rapid same-day delivery options", "description": "Receive your high-quality designs on the very same day with our premium, higher-tier packages." },
+        { "title": "Elite professional designers", "description": "Collaborate with a team of highly experienced and vetted designers who bring creativity, skill, and precision to every project." },
+        { "title": "Intelligent designer matching", "description": "Each of your design requests is intelligently routed to the most qualified and best-suited designer for that specific job." }
+      ]
+    },
+    "clutchRating": {
+      "text": "Proudly holding a 4.9 average rating on Clutch from satisfied clients."
+    },
+    "cta": {
+      "title": "Ready to <gradient>transform</gradient> your brand's visual identity?",
+      "subtitle": "Let's have a conversation about your unique design needs and explore how our expert team can help you create a stunning, impactful visual presence. Book a free, no-obligation consultation call today.",
+      "button": "Book Your Free Design Call"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Meet <gradient>Neotek LTD</gradient>: Innovate, Create, Elevate",
+      "subtitle": "We are a dynamic collective of digital artisans – strategists, designers, and developers – passionately committed to empowering businesses in the ever-evolving digital landscape. Our core mission is to forge innovative, high-performance online experiences that drive growth and captivate audiences."
+    },
+    "missionSection": {
+      "title": "Our <gradient>Mission & Vision</gradient>",
+      "p1": "At Neotek LTD, our mission is to be the catalyst for our clients' digital success. We provide robust, scalable, and engaging web and e-commerce platforms, meticulously crafted to meet unique business objectives. We believe in building lasting partnerships founded on trust, transparency, and mutual growth.",
+      "p2": "Our vision is to be a leading digital agency recognized for innovation, quality, and a client-centric approach. We strive to continuously push the boundaries of technology and creativity, helping businesses not just adapt, but thrive in the digital future, unlocking their full online potential."
+    },
+    "storySection": {
+      "title": "Our <gradient>Journey</gradient>",
+      "p1": "Founded in 2023 by Mehdi Jaidane, Neotek LTD emerged from a singular vision: to bridge the gap between cutting-edge technology and impactful creative design. Recognizing the evolving needs of businesses in the digital age, we set out to build an agency that was agile, innovative, and deeply client-focused.",
+      "p2": "Starting as a nimble team of dedicated developers and visionary designers, Neotek has steadily grown into a comprehensive digital solutions provider. We've had the privilege of partnering with a diverse range of clients, from ambitious startups to established enterprises, helping them launch, manage, and scale their online presence across various industries.",
+      "p3": "Our journey has been defined by continuous learning, strategic adaptation to new technologies, and an unwavering pursuit of excellence in every project we undertake. We are proud of the solutions we've delivered and the relationships we've built, always looking forward to the next challenge and opportunity to innovate."
+    },
+    "teamSection": {
+      "title": "The <gradient>Driving Force</gradient>: Our Team",
+      "member": {
+        "name": "Mehdi Jaidane",
+        "role": "Founder & CEO / Lead Developer",
+        "bio": "With over a decade of hands-on experience in full-stack web development, e-commerce strategy, and project leadership, Mehdi is the visionary force behind Neotek LTD. He is passionate about leveraging technology to solve complex business challenges and create seamless digital experiences. Mehdi leads the team with a focus on innovation, quality, and unwavering client success. His expertise spans across multiple technologies and platforms, ensuring that Neotek delivers cutting-edge solutions."
+      }
+    },
+    "valuesSection": {
+      "title": "Our Core <gradient>Values</gradient>",
+      "values": [
+        { "title": "Innovation", "description": "We constantly explore new technologies and creative approaches to deliver forward-thinking, cutting-edge solutions that keep our clients ahead of the curve." },
+        { "title": "Client Success", "description": "Our clients' goals are our paramount priority. We are deeply committed to their growth, satisfaction, and achieving measurable results together." },
+        { "title": "Integrity", "description": "We operate with unwavering transparency, honesty, and a strong sense of ethics in all our interactions and business dealings." },
+        { "title": "Partnership", "description": "We believe in the power of true collaboration, fostering strong teamwork internally and building lasting, trust-based partnerships with our clients." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to <gradient>Collaborate With Us?</gradient>",
+      "subtitle": "Join the growing roster of businesses that have achieved remarkable digital success with Neotek LTD. Let's embark on a journey to build something truly amazing together.",
+      "button": "Contact Us Today to Get Started"
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "Transparent & Flexible <gradient>Pricing</gradient>",
+      "subtitle": "Choose the plan that best suits your e-commerce needs. All our packages are designed to deliver maximum value, tangible results, and scalable growth for your online business. No hidden fees, just straightforward solutions.",
+      "titleDuck": "Simple, Transparent Design Pricing",
+      "subtitleDuck": "Choose the perfect design plan for your business. No hidden fees, no surprises. Just great design at a fair price, with options for every creative need."
+    },
+    "mostPopular": "Most Popular",
+    "plans": [
+      {
+        "id": "price_essential_placeholder",
+        "name": "Essential E-commerce",
+        "price": "{{price}}",
+        "priceSuffix": "/one-time",
+        "description": "Perfect for startups and small businesses looking to establish a professional and effective online presence quickly.",
+        "features": [
+          "Custom Online Store (up to 10 key pages)",
+          "Fully Mobile-Responsive Design",
+          "Basic Product Catalog Setup (up to 50 products)",
+          "Standard Secure Payment Gateway Integration",
+          "Fundamental SEO Setup for discoverability",
+          "1 Month of Post-Launch Technical Support"
+        ],
+        "cta": "Get Started with Essential",
+        "ctaType": "payment",
+        "popular": false,
+        "contactService": "Essential E-commerce"
+      },
+      {
+        "id": "price_growth_placeholder",
+        "name": "Growth E-commerce",
+        "price": "{{price}}",
+        "priceSuffix": "/one-time",
+        "description": "Ideal for growing businesses aiming to enhance store functionality, customer engagement, and sales performance.",
+        "features": [
+          "Everything in Essential, plus:",
+          "Advanced Product Catalog (up to 200 products, variants included)",
+          "Integrated Blog & Content Management System (CMS)",
+          "Email Marketing Platform Integration (e.g., Mailchimp)",
+          "Advanced SEO & Google Analytics Setup",
+          "Social Media Integration & Sharing Tools",
+          "3 Months of Post-Launch Support & Minor Adjustments"
+        ],
+        "cta": "Choose Growth Package",
+        "ctaType": "payment",
+        "popular": true,
+        "contactService": "Growth E-commerce"
+      },
+      {
+        "id": "contact_performance",
+        "name": "Performance E-commerce",
+        "price": "Custom",
+        "priceSuffix": "Quote",
+        "description": "Tailor-made, high-performance solutions for established businesses requiring advanced features, integrations, and scalability.",
+        "features": [
+          "Everything in Growth, plus:",
+          "Unlimited Products, Pages & Complex Categories",
+          "Custom Feature Development & Bespoke Functionality",
+          "Third-Party API Integrations (ERP, CRM, Inventory Systems)",
+          "Advanced Security Protocols & Performance Optimization",
+          "Dedicated Account Manager & Strategic Consulting",
+          "Ongoing Maintenance & Proactive Support Plan Options"
+        ],
+        "cta": "Contact Us for Custom Quote",
+        "ctaType": "contact",
+        "popular": false,
+        "contactService": "Performance E-commerce"
+      }
+    ],
+    "stripeNote": "Note: Stripe integration is for demonstration. Replace 'YOUR_STRIPE_PUBLISHABLE_KEY' and Price IDs in PricingPage.jsx with your actual Stripe keys and product price IDs to enable real payments.",
+    "stripeConfigWarning": {
+      "title": "Stripe Configuration Needed",
+      "description": "Payment for '{{planName}}' cannot proceed. Please ensure Stripe is correctly configured with a valid Publishable Key and Price ID for this plan."
+    },
+    "stripeRedirecting": "Redirecting to Stripe...",
+    "stripePleaseWait": "Please wait while we securely redirect you to Stripe Checkout.",
+    "stripeError": {
+      "title": "Stripe Error",
+      "description": "An error occurred during the Stripe process. Please try again or contact support."
+    },
+    "stripeInitError": {
+      "title": "Stripe Initialization Error",
+      "description": "Could not initialize Stripe. Please check your configuration or contact support."
+    },
+    "comparison": {
+      "title": "Feature <gradient>Comparison</gradient>",
+      "titleDuck": "Compare Our Design Plans",
+      "featureHeader": "Feature",
+      "features": {
+        "pages": "Number of Pages",
+        "products": "Product Catalog Size",
+        "design": "Design Customization",
+        "payment": "Payment Gateway",
+        "seo": "SEO Setup Level",
+        "blog": "Blog/CMS",
+        "emailMarketing": "Email Marketing Integration",
+        "socialMedia": "Social Media Integration",
+        "customFeatures": "Custom Feature Development",
+        "apiIntegrations": "API Integrations",
+        "security": "Security & Performance",
+        "support": "Post-Launch Support"
+      },
+      "featureValues": {
+        "pages": ["Up to 10", "Up to 50", "Unlimited"],
+        "products": ["Up to 50", "Up to 200", "Unlimited"],
+        "design": ["Standard", "Advanced", "Fully Custom"],
+        "payment": ["Standard", "Standard", "Advanced"],
+        "seo": ["Basic", "Advanced", "Premium"],
+        "blog": [false, true, true],
+        "emailMarketing": [false, true, true],
+        "socialMedia": [false, true, true],
+        "customFeatures": [false, false, true],
+        "apiIntegrations": [false, false, true],
+        "security": ["Standard", "Enhanced", "Advanced"],
+        "support": ["1 Month", "3 Months", "Ongoing Plan"]
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked <gradient>Questions</gradient>",
+      "titleDuck": "Your Design Questions Answered",
+      "items": [
+        { "q": "What platforms do you specialize in for e-commerce development?", "a": "We have expertise in a wide range of platforms including Shopify, WooCommerce, Magento, and can also build completely custom e-commerce solutions based on your specific needs. We always recommend the platform that best fits your project's requirements, budget, and scalability goals." },
+        { "q": "How long does it typically take to build and launch an online store?", "a": "The timeline can vary significantly depending on the complexity of the project, number of custom features, and content readiness. An Essential E-commerce store might take 4-6 weeks, while Growth and Performance packages with more customizations could take 8-12 weeks or longer. We provide a detailed project timeline after our initial consultation and discovery phase." },
+        { "q": "What kind of post-launch support and maintenance do you offer?", "a": "All our e-commerce packages include a period of post-launch technical support to address any immediate issues. We also offer flexible ongoing maintenance and support plans that can cover regular updates, security monitoring, performance checks, and minor enhancements to ensure your store runs smoothly and securely." },
+        { "q": "Can you assist with digital marketing and SEO for my new store?", "a": "Absolutely! Our services extend beyond development. We offer comprehensive digital marketing strategies, including SEO (Search Engine Optimization), content marketing, social media marketing, PPC (Pay-Per-Click) advertising, and email marketing to help you attract qualified customers and grow your online sales." },
+        { "q": "What if I need specific features or integrations not listed in your standard packages?", "a": "Our Performance E-commerce package is designed for full customization. We excel at developing bespoke features and integrating with third-party systems (like ERPs, CRMs, or specialized shipping providers). We encourage you to discuss your unique requirements with us for a tailored quote." }
+      ]
+    },
+    "customQuote": {
+      "title": "Need a Custom E-commerce Solution?",
+      "description": "If your project has unique requirements, needs complex integrations, or you're looking for a combination of services not covered in our standard packages, we're here to help. Let's discuss your vision and provide a personalized quote.",
+      "button": "Request Your Custom Quote"
+    }
+  },
+  "testimonialsPage": {
+    "hero": {
+      "title": "Client <gradient>Success Stories</gradient> & Testimonials",
+      "subtitle": "We are incredibly proud to have partnered with a diverse range of amazing businesses, helping them achieve their digital ambitions. Read firsthand what our valued clients have to say about their experience working with Neotek LTD.",
+      "titleDuck": "What Our Design Clients Say",
+      "subtitleDuck": "We're proud to have partnered with amazing businesses on their design journeys. Here's what some of them have to say about their experience with Neotek LTD's design services."
+    },
+    "testimonials": [
+      { "name": "Alice Wonderland", "role": "CEO, Wonderland Creations", "quote": "Neotek LTD completely transformed our online presence! Their team is exceptionally professional, brimming with creativity, and incredibly responsive. Our sales have surged by an impressive 40% since the launch of our new, beautifully designed site. A true game-changer!", "rating": 5, "category": "E-commerce Redesign & Branding" },
+      { "name": "Bob The Builder", "role": "Founder, BuildIt Co.", "quote": "Partnering with Neotek was a pivotal moment for our business. They didn't just understand our vision; they enhanced it and delivered a high-performing online store that far exceeded our wildest expectations. Highly recommended for any serious e-commerce venture!", "rating": 5, "category": "New Store Development & UX Optimization" },
+      { "name": "Charlie Bucket", "role": "Marketing Director, Sweet Factory Online", "quote": "The digital marketing strategies implemented by Neotek have significantly boosted our online visibility, customer engagement, and ultimately, our revenue. They are a truly valuable and indispensable partner for our continued growth in the competitive online space.", "rating": 4, "category": "Digital Marketing & SEO Strategy" },
+      { "name": "Diana Prince", "role": "Owner, Amazonian Boutique & Imports", "quote": "The meticulous attention to detail and unwavering commitment to quality demonstrated by the Neotek team is simply outstanding. Our new luxury e-commerce website is not only visually stunning but also incredibly functional and user-friendly. The customer feedback has been phenomenal.", "rating": 5, "category": "Luxury E-commerce Platform Development" },
+      { "name": "Edward Scissorhands", "role": "Lead Artist, Topiary Artistry Online", "quote": "Neotek helped me establish a captivating online gallery to showcase and sell my unique art pieces to a global audience. The entire process was remarkably smooth, and their team was exceptionally supportive and understanding of an artist's needs. I couldn't be happier.", "rating": 5, "category": "Artist Portfolio & E-commerce Shop" },
+      { "name": "Fiona Gallagher", "role": "General Manager, Alibi Room Online Store", "quote": "Neotek LTD was instrumental in helping us take our beloved local business into the digital realm. Their profound expertise in e-commerce strategy and development was invaluable, and we've seen a fantastic response from both new and existing customers.", "rating": 4, "category": "Local Business E-commerce Transformation" }
+    ],
+    "shareSuccess": {
+      "title": "Share Your Own Success Story With Neotek",
+      "description": "Have we had the pleasure of helping your business grow and achieve new heights? We would be thrilled to hear about your experience and potentially feature your success story on our platform.",
+      "button": "Submit Your Testimonial Now"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get In <gradient>Touch</gradient> With Neotek LTD",
+      "titleAlt": "Let's <gradient>Connect</gradient> and Build Something Great",
+      "subtitle": "We're eager to answer your questions, discuss your innovative project ideas, or provide you with a personalized, no-obligation quote. Reach out to us today and let's start the conversation!",
+      "subtitleAlt": "Whether you have a query about our diverse services, wish to explore a new project collaboration, or simply want to say hello, we'd be delighted to hear from you. Please use the form below or contact us directly through our provided channels.",
+      "titleDuck": "Get In Touch About Design",
+      "subtitleDuck": "We're here to help with your design needs and answer any question you might have. We look forward to hearing from you and discussing your creative vision."
+    },
+    "formSection": {
+      "title": "Send Us a <gradient>Message</gradient>",
+      "titleAlt": "Send Us Your Inquiry",
+      "description": "Please fill out the form below with as much detail as possible. One of our dedicated e-commerce specialists or project consultants will get back to you as soon as possible, typically within one business day.",
+      "descriptionAlt": "Fill out this form with your project details or questions, and one of our expert team members will get back to you shortly. We're excited to learn about your project and explore how we can assist you!"
+    },
+    "detailsSection": {
+      "title": "Our Contact <gradient>Details</gradient>",
+      "titleAlt": "Direct Contact Information",
+      "description": "You can also reach us directly through the following channels during our business hours. We look forward to hearing from you and discussing your needs!",
+      "descriptionAlt": "Prefer to reach out to us directly? Here's how you can find us. Our team is available during standard business hours to assist you with any inquiries.",
+      "addressTitle": "Our Main Office",
+      "addressLines": ["Innovation Hub, Technopole El Ghazela", "Tunis, Tunisia, 2088"],
+      "phoneTitle": "Phone / WhatsApp",
+      "emailTitle": "General Inquiries Email",
+      "hoursTitle": "Our Business Hours",
+      "hoursLines": ["Monday - Friday: 9:00 AM - 6:00 PM (CET)", "Saturday: 10:00 AM - 2:00 PM (CET) - By Appointment"]
+    },
+    "socialSection": {
+      "titleAlt": "Follow Our Journey",
+      "descriptionAlt": "Stay connected with Neotek LTD on social media for the latest company updates, industry insights, tips, and a behind-the-scenes look into the world of e-commerce and digital innovation."
+    },
+    "mapSection": {
+      "title": "Find Us <gradient>Here</gradient> on the Map"
+    }
+  },
+  "paymentSuccessPage": {
+    "title": "Payment <gradient>Successful!</gradient> Thank You!",
+    "subtitle": "Thank you for your purchase and trust in Neotek LTD. Your order is confirmed, and our team is excited and ready to get started on your project. We appreciate your business!",
+    "orderDetailsTitle": "Your Order Details",
+    "transactionId": "Transaction ID",
+    "nextStepsTitle": "What Happens Next?",
+    "nextSteps": [
+      "You will receive an email confirmation shortly containing your complete order details and receipt.",
+      "Our dedicated project management team will reach out to you within 1-2 business days to discuss the next steps, project kickoff, and any initial requirements.",
+      "In the meantime, feel free to explore our extensive resources section or contact our support team if you have any immediate questions or require further assistance."
+    ],
+    "backToHome": "Back to Homepage",
+    "contactSupport": "Contact Customer Support"
+  },
+  "currency": {
+    "EUR": "Euro",
+    "TND": "Tunisian Dinar"
+  },
+  "shared": {
+    "login": "Login"
+  }
+}
