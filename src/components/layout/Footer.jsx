@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-12 mb-12">
           <div className="col-span-2 lg:col-span-2">
             <Link to="/" className="flex items-center space-x-2.5 mb-5">
-              <img alt="Logo Neotek LTD footer" className="h-9" src="https://storage.googleapis.com/hostinger-horizons-assets-prod/ec999e98-f757-4104-a433-d4cc6a4be42b/8aa1fb1d9bc12894ef28d2b0e588dc82.jpg" />
+              <span className="text-brand-accent text-2xl font-bold font-heading">Code<span className="text-brand-dark">Vista</span></span>
             </Link>
             <p className="text-sm text-brand-secondary max-w-md mb-6">
               {t('footer.tagline', { defaultValue: "Your partner for innovative e-commerce solutions. We build digital experiences that drive growth."})}
@@ -46,10 +46,10 @@ const Footer = () => {
                   href={social.href} 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="p-2.5 bg-brand-border/60 hover:bg-brand-yellow-accent rounded-lg transition-colors group"
+                  className="p-2.5 bg-brand-border/60 hover:bg-brand-accent rounded-lg transition-colors group"
                   aria-label={social.name}
                 >
-                  {React.cloneElement(social.icon, { className: "text-brand-secondary group-hover:text-brand-dark" })}
+                  {React.cloneElement(social.icon, { className: "text-brand-secondary group-hover:text-white" })}
                 </a>
               ))}
             </div>
@@ -61,7 +61,7 @@ const Footer = () => {
               <ul className="space-y-3 text-sm">
                 {section.links.map(link => (
                   <li key={link.name}>
-                    <Link to={link.href} className="text-brand-secondary hover:text-brand-yellow-accent transition-colors">{link.name}</Link>
+                    <Link to={link.href} className="text-brand-secondary hover:text-brand-accent transition-colors">{link.name}</Link>
                   </li>
                 ))}
               </ul>
@@ -75,9 +75,9 @@ const Footer = () => {
               <CurrencySelector buttonClassName="text-brand-secondary hover:text-brand-yellow-accent" iconClassName="text-brand-secondary/70" />
               <ThemeToggle />
             </div>
-             <Button asChild size="md" className="w-full md:w-auto btn-primary-yellow px-6 py-3 rounded-lg shadow-subtle">
-               <Link to="/contact">{t('header.bookCall', {defaultValue: "Book a Call"})}</Link>
-             </Button>
+              <Button asChild size="md" className="w-full md:w-auto bg-brand-accent hover:bg-brand-accent-dark text-white px-6 py-3 rounded-lg shadow-sm">
+                <Link to="/contact">{t('header.bookCall', {defaultValue: "Book a Call"})}</Link>
+              </Button>
           </div>
         </div>
         

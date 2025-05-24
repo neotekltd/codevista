@@ -57,7 +57,7 @@ const BlinHeroSection = () => {
   };
 
   return (
-    <SectionWrapper className="bg-brand-background-light !pt-12 md:!pt-16 !pb-8 md:!pb-12" disableAnimation>
+    <SectionWrapper className="bg-gradient-to-br from-brand-background-light to-blue-50 !pt-12 md:!pt-16 !pb-8 md:!pb-12" disableAnimation>
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <MotionDiv variants={fadeIn} initial="hidden" animate="visible">
@@ -68,11 +68,11 @@ const BlinHeroSection = () => {
             <div className="grid sm:grid-cols-2 gap-6">
               <MotionCard variants={itemVariants} className="light-theme-card p-6 text-center hover:shadow-strong">
                 <CardTitle className="text-xl mb-1">{t('homePage.blinHero.showcaseSite.title')}</CardTitle>
-                <CardDescription className="text-brand-yellow-accent-dark font-semibold text-lg">{t('homePage.blinHero.showcaseSite.price')}</CardDescription>
+                <CardDescription className="text-brand-accent-dark font-semibold text-lg">{t('homePage.blinHero.showcaseSite.price')}</CardDescription>
               </MotionCard>
               <MotionCard variants={itemVariants} className="light-theme-card p-6 text-center hover:shadow-strong">
                 <CardTitle className="text-xl mb-1">{t('homePage.blinHero.ecommerceSite.title')}</CardTitle>
-                <CardDescription className="text-brand-yellow-accent-dark font-semibold text-lg">{t('homePage.blinHero.ecommerceSite.price')}</CardDescription>
+                <CardDescription className="text-brand-accent-dark font-semibold text-lg">{t('homePage.blinHero.ecommerceSite.price')}</CardDescription>
               </MotionCard>
             </div>
           </MotionDiv>
@@ -81,19 +81,19 @@ const BlinHeroSection = () => {
           </MotionDiv>
         </div>
 
-        <MotionCard variants={fadeIn} initial="hidden" animate="visible" transition={{delay: 0.5}} className="mt-12 md:mt-16 bg-brand-yellow-accent p-6 md:p-10 rounded-2xl shadow-strong">
+        <MotionCard variants={fadeIn} initial="hidden" animate="visible" transition={{delay: 0.5}} className="mt-12 md:mt-16 bg-brand-accent p-6 md:p-10 rounded-2xl shadow-strong">
           <h2 className="font-heading text-2xl md:text-3xl font-bold text-brand-dark mb-2 text-center">{t('homePage.blinHero.freeEvaluation.title')}</h2>
           <p className="text-brand-dark/80 mb-6 text-center text-sm md:text-base">{t('homePage.blinHero.freeEvaluation.subtitle')}</p>
           <form onSubmit={handleMiniFormSubmit} className="grid sm:grid-cols-3 gap-4 items-end">
             <div className="sm:col-span-1">
               <Label htmlFor="phone-hero" className="text-brand-dark font-medium text-xs">{t('homePage.blinHero.freeEvaluation.phoneLabel')}</Label>
-              <Input type="tel" id="phone-hero" name="phone" placeholder={t('homePage.blinHero.freeEvaluation.phonePlaceholder')} required className="bg-white/80 border-brand-yellow-accent-dark placeholder:text-brand-dark/50 focus:bg-white rounded-md" />
+              <Input type="tel" id="phone-hero" name="phone" placeholder={t('homePage.blinHero.freeEvaluation.phonePlaceholder')} required className="bg-white/80 border-brand-accent-dark placeholder:text-brand-dark/50 focus:bg-white rounded-md" />
             </div>
             <div className="sm:col-span-1">
               <Label htmlFor="name-hero" className="text-brand-dark font-medium text-xs">{t('homePage.blinHero.freeEvaluation.nameLabel')}</Label>
-              <Input type="text" id="name-hero" name="name" placeholder={t('homePage.blinHero.freeEvaluation.namePlaceholder')} required className="bg-white/80 border-brand-yellow-accent-dark placeholder:text-brand-dark/50 focus:bg-white rounded-md" />
+              <Input type="text" id="name-hero" name="name" placeholder={t('homePage.blinHero.freeEvaluation.namePlaceholder')} required className="bg-white/80 border-brand-accent-dark placeholder:text-brand-dark/50 focus:bg-white rounded-md" />
             </div>
-            <Button type="submit" className="sm:col-span-1 w-full bg-brand-dark hover:bg-black text-brand-yellow-accent font-semibold text-sm py-3 rounded-md">{t('homePage.blinHero.freeEvaluation.cta')}</Button>
+            <Button type="submit" className="sm:col-span-1 w-full bg-brand-dark hover:bg-black text-white font-semibold text-sm py-3 rounded-md">{t('homePage.blinHero.freeEvaluation.cta')}</Button>
           </form>
           {FORMSPREE_ENDPOINT_MINI.includes("YOUR_UNIQUE_FORM_ID") && (
             <p className="text-xs text-brand-dark/70 mt-3 text-center">{t('homePage.contactSection.form.formspreeNote')}</p>
@@ -115,12 +115,12 @@ const BlinServiceAdvantageSection = ({titleKey, descriptionKey, features, imageS
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mt-6 mb-8">
             {features.map((featureKey, idx) => (
               <li key={idx} className="flex items-center text-brand-secondary">
-                <Check className="h-5 w-5 text-brand-yellow-accent mr-2 shrink-0" />
+                <Check className="h-5 w-5 text-brand-accent mr-2 shrink-0" />
                 <span className="text-sm">{t(featureKey)}</span>
               </li>
             ))}
           </ul>
-          <Button asChild className="btn-primary-yellow">
+          <Button asChild className="bg-brand-accent hover:bg-brand-accent-dark text-white font-semibold px-6 py-2.5 rounded-lg shadow-sm">
             <Link to={ctaLink}>{t(ctaTextKey)}</Link>
           </Button>
         </MotionDiv>
@@ -138,7 +138,7 @@ const BlinWhyTrustUsSection = () => {
   const trustPoints = t('homePage.blinWhyTrustUs.points', { returnObjects: true, defaultValue: [] });
   if (!Array.isArray(trustPoints) || trustPoints.length === 0) return null;
 
-  const icons = [<Award className="h-8 w-8 text-brand-yellow-accent"/>, <Users className="h-8 w-8 text-brand-yellow-accent"/>, <Rocket className="h-8 w-8 text-brand-yellow-accent"/>, <MessageCircle className="h-8 w-8 text-brand-yellow-accent"/>];
+  const icons = [<Award className="h-8 w-8 text-brand-accent"/>, <Users className="h-8 w-8 text-brand-accent"/>, <Rocket className="h-8 w-8 text-brand-accent"/>, <MessageCircle className="h-8 w-8 text-brand-accent"/>];
   
   return (
     <SectionWrapper className="bg-brand-background-light border-t border-brand-border">
@@ -158,7 +158,7 @@ const BlinWhyTrustUsSection = () => {
           ))}
         </div>
         <motion.div variants={fadeIn} className="mt-10 text-center lg:text-left">
-            <Button asChild className="btn-primary-yellow">
+            <Button asChild className="bg-brand-accent hover:bg-brand-accent-dark text-white font-semibold px-6 py-2.5 rounded-lg shadow-sm">
               <Link to="/a-propos">{t('homePage.blinWhyTrustUs.cta')}</Link>
             </Button>
         </motion.div>

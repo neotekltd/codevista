@@ -164,7 +164,7 @@ const Header = () => {
     >
       <nav className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2 shrink-0">
-          <img alt="Neotek LTD Logo" className="h-10 md:h-11" src="https://storage.googleapis.com/hostinger-horizons-assets-prod/ec999e98-f757-4104-a433-d4cc6a4be42b/8aa1fb1d9bc12894ef28d2b0e588dc82.jpg" />
+          <span className="text-brand-accent text-2xl font-bold font-heading">Code<span className="text-brand-dark">Vista</span></span>
         </Link>
         
         <div className="hidden lg:flex items-center space-x-1">
@@ -209,7 +209,7 @@ const Header = () => {
             iconClassName={cn('opacity-80', isScrolled ? 'text-foreground/70' : 'text-brand-dark/70 dark:text-brand-light/70')} 
           />
           <ThemeToggle />
-          <Button asChild size="sm" className="btn-primary-yellow px-6 py-2.5 text-sm font-semibold rounded-full">
+          <Button asChild size="sm" className="bg-brand-accent hover:bg-brand-accent-dark text-white px-6 py-2.5 text-sm font-semibold rounded-full shadow-sm">
            <Link to="/contact">{t('header.bookCall')}</Link>
           </Button>
         </div>
@@ -278,7 +278,7 @@ const Header = () => {
                         <ThemeToggle />
                     </div>
                 </div>
-                <Button asChild className="w-full mt-2 btn-primary-yellow py-3.5 rounded-full text-base font-semibold">
+                <Button asChild className="w-full mt-2 bg-brand-accent hover:bg-brand-accent-dark text-white py-3.5 rounded-full text-base font-semibold shadow-sm">
                   <Link to="/contact" onClick={closeMobileMenu}>{t('header.bookCall')}</Link>
                 </Button>
                 <Button variant="outline" asChild className="w-full py-3.5 rounded-full text-base font-semibold border-primary/50 text-primary hover:bg-primary/10">

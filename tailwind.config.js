@@ -50,22 +50,22 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        'brand-dark': '#1A1A1A', // Darker, inspired by duck.design footer
+        'brand-dark': '#0F172A', // Dark blue for text and backgrounds
         'brand-light': '#FFFFFF', // Pure white for text on dark
-        'brand-background-light': '#FFFBEB', // Pale yellow like duck.design bg
-        'brand-accent': '#4ADE80', // Your existing vibrant green
-        'brand-accent-dark': '#22C55E', 
-        'brand-secondary': '#6B7280', // Adjusted gray for text
-        'brand-border': '#E5E7EB', // Lighter border for light theme elements
-        'brand-dark-border': '#374151', // Border for dark theme elements
-        'brand-yellow-accent': '#FACC15', // Yellow accent from duck.design
-        'brand-yellow-accent-dark': '#EAB308',
-        'brand-deep-purple': '#110E19', 
-        'brand-purple': '#7C3AED', 
-        'brand-light-purple': '#A78BFA',
-        'brand-pink': '#F472B6', 
-        'brand-teal': '#2DD4BF', 
-        'brand-orange': '#F97316', 
+        'brand-background-light': '#F8FAFC', // Light blue-gray background
+        'brand-accent': '#3B82F6', // Vibrant blue accent
+        'brand-accent-dark': '#2563EB', // Darker blue for hover states
+        'brand-secondary': '#64748B', // Slate gray for secondary text
+        'brand-border': '#E2E8F0', // Light border for light theme elements
+        'brand-dark-border': '#334155', // Border for dark theme elements
+        'brand-yellow-accent': '#3B82F6', // Changed from yellow to blue
+        'brand-yellow-accent-dark': '#2563EB', // Changed to darker blue
+        'brand-deep-purple': '#1E293B', // Darker blue-gray
+        'brand-purple': '#6366F1', // Indigo
+        'brand-light-purple': '#818CF8', // Lighter indigo
+        'brand-pink': '#EC4899', // Pink
+        'brand-teal': '#14B8A6', // Teal
+        'brand-orange': '#F97316', // Orange
       },
       borderRadius: {
         lg: "var(--radius)", // 0.75rem
